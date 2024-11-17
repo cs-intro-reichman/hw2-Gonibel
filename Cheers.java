@@ -12,7 +12,7 @@ public class Cheers {
                 if (slogan.charAt(i) == 'A' || slogan.charAt(i) == 'E' || slogan.charAt(i) == 'F' || slogan.charAt(i) == 'H' || slogan.charAt(i) == 'I' || slogan.charAt(i) == 'L' || slogan.charAt(i) == 'M' || slogan.charAt(i) == 'O' || slogan.charAt(i) == 'R' || slogan.charAt(i) == 'S' || slogan.charAt(i) == 'X'|| slogan.charAt(i) == 'N') {
                         System.out.println("Give me an " + slogan.charAt(i) + ": " + slogan.charAt(i) + "!");
                 } else {
-                        System.out.println("Give me a " + slogan.charAt(i) + ": " + slogan.charAt(i) + "!");
+                        System.out.println("Give me a  " + slogan.charAt(i) + ": " + slogan.charAt(i) + "!");
                 }
 
             }
