@@ -35,7 +35,7 @@ public class Collatz {
 		for(int i = 1; i <= laps; i++) {
 			int seed = i;
 			counter = 0;
-			System.out.print("\n"+seed);
+			System.out.print(seed);
 			if (seed == 1){seed = seed *3 +1; System.out.print(" " + seed);}
 			while (seed !=1) {
 				if (seed % 2 == 0) {
