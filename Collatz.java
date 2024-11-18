@@ -25,7 +25,7 @@ public class Collatz {
 						System.out.print(" " + caseone);
 						counter++;
 					}
-					System.out.print("("+counter+")");
+					System.out.print(" ("+counter+")");
 
 				}
 			} else {
@@ -48,7 +48,7 @@ public class Collatz {
 					counter++;
 				}
 			}
-			System.out.println("("+counter+")");
+			System.out.println(" ("+counter+")");
 			
 		}
 	}
