@@ -13,6 +13,8 @@ public class Collatz {
 				int caseone = 1;
 				System.out.println("\n" + caseone);
 				caseone = caseone * 3 + 1;
+				System.out.print(" " + caseone);
+
 				while (caseone != 1) {
 					if (caseone% 2 == 0) {
 						caseone = caseone / 2;
