@@ -11,7 +11,7 @@ public class Collatz {
 
 			if(laps ==1) {
 				int caseone = 1;
-				System.out.println("\n" + caseone);
+				System.out.print("\n" + caseone);
 				caseone = caseone * 3 + 1;
 				System.out.print(" " + caseone);
 
@@ -25,6 +25,7 @@ public class Collatz {
 						System.out.print(" " + caseone);
 						counter++;
 					}
+					System.out.print("("+counter+")");
 
 				}
 			} else {
@@ -35,7 +36,7 @@ public class Collatz {
 			int seed = i;
 			counter = 0;
 			System.out.print("\n"+seed);
-			if (seed == 1){seed = seed *3 +1;}
+			if (seed == 1){seed = seed *3 +1; System.out.print(" " + seed);}
 			while (seed !=1) {
 				if (seed % 2 == 0) {
 					seed = seed / 2;
